@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <title>Restaurant</title>
 </head>
 <body>
@@ -25,12 +31,130 @@
         <a href="">See menu</a>
     </header>
     <section class="booking">
-        <div>Book a table <img src="assets/booking/arrow_1.svg" alt="arrow" height="10"></div>
+        <div>Book a Table <img src="assets/booking/arrow_1.svg" alt="arrow" height="10"></div>
+        <div class="card card-vertical">
+            <form action="">
+                <div class="label-input"><label for="date">Date <img src="assets/booking/arrow_2.svg" alt="arrow" height="10"></label>
+                <input type="date" name="date"></div>
+                <div class="label-input"><label for="time">Time <img src="assets/booking/arrow_2.svg" alt="arrow" height="10"></label>
+                <input type="time" name="time"></div>
+                <div class="label-input"><label for="mail">Mail <img src="assets/booking/arrow_2.svg" alt="arrow" height="10"></label>
+                <input type="email" value="" placeholder="yourmail@domain.com"></div>
+                <div class="label-input"><input type="submit" value="Check availability"></div>
+            </form>
+        </div>
     </section>
-    <main>
+    <section>
+        <h5>Delicious</h5>
+        <h2>Food categories</h2>
+        <div class="card card-horizontal">
+            <img src="assets/categories/meat.svg" alt="" height="45">
+            <h3>Meat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi quos nisi dolor neque eveniet ex.
+                Possimus debitis alias sequi quia illo aliquam voluptatum ut maxime, laboriosam facere aut dolor!</p>
+            <a href="" class="button orange">Read More</a>
+        </div>
+        <div class="card card-horizontal">
+            <img src="assets/categories/fish.svg" alt="" height="45">
+            <h3>Fish</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi quos nisi dolor neque eveniet ex.
+                Possimus debitis alias sequi quia illo aliquam voluptatum ut maxime, laboriosam facere aut dolor!</p>
+            <a href="" class="button orange">Read More</a>
+        </div>
+        <div class="card card-horizontal">
+            <img src="assets/categories/drink.svg" alt="" height="45">
+            <h3>Drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut commodi quos nisi dolor neque eveniet ex.
+                Possimus debitis alias sequi quia illo aliquam voluptatum ut maxime, laboriosam facere aut dolor!</p>
+            <a href="" class="button orange">Read More</a>
+        </div>
+    </section>
+    <section>
+        <h5>COVID-19 Protocol</h5>
+        <h2>We care about you</h2>
+        <a href="" class="button teal"> Read More</a>
+    </section>
+    <section class="card">
+        <h2><span>Words from</span> The Chef</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus obcaecati architecto ut a sequi ipsam
+            quod quam, quos deleniti non fugit. Modi sit accusantium doloribus molestiae iste eum quos voluptatibus!</p>
+        <a href="" class="button orange">Read More</a>
+        <img src="assets/the chef/the_chef.svg" alt="ilutration of a chef" height="100">
+    </section>
+    <section>
+        <h2><span>What our</span> Customers Say</h2>
+        <article class="card"> <img src="assets/testimonials/testimonial_1.svg" alt="" height="100">
+            <h4>Jhon Smith</h4> <span>Aug/12/21</span>
 
-    </main>
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione nam quidem nemo illum fuga explicabo
+                dicta
+                excepturi cupiditate qui natus quis laboriosam, minima, incidunt adipisci vel odit illo assumenda sunt!"
+            </p>
+        </article>
+        <article class="card"> <img src="assets/testimonials/testimonial_2.svg" alt="" height="100">
+            <h4>Steve James</h4> <span>July/18/21</span>
+
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione nam quidem nemo illum fuga explicabo
+                dicta
+                excepturi cupiditate qui natus quis laboriosam, minima, incidunt adipisci vel odit illo assumenda sunt!"
+            </p>
+        </article>
+        <article class="card"> <img src="assets/testimonials/testimonial_3.svg" alt="" height="100">
+            <h4>Sara Jonson</h4> <span>Aug/03/21</span>
+
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione nam quidem nemo illum fuga explicabo
+                dicta
+                excepturi cupiditate qui natus quis laboriosam, minima, incidunt adipisci vel odit illo assumenda sunt!"
+            </p>
+        </article>
+    </section>
+    <section>
+        <h2>Send us a message!</h2>
+        <form action="">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" id="" placeholder="Mail">
+            <textarea placeholder="Message" rows="10" cols="20"></textarea>
+            <input type="submit" value="Send message">
+        </form>
+    </section>
+
     <footer>
+        <div>
+            <h3>About</h3>
+            <ul>
+                <li><a href="">History</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Mission Statement</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>What we do</h3>
+            <ul>
+                <li><a href="">News and stories</a></li>
+                <li><a href="">Publications</a></li>
+                <li><a href="">Take action</a></li>
+                <li><a href="">Recommendations</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sing up to our Newsletter</h3>
+            <form action="">
+                <input type="email" placeholder="yourmail@domain.com">
+                <input type="submit" value="Sign me up!">
+
+            </form>
+            <div id="social-media">
+                <div>Follow us!</div>
+                <div>
+                    <a href="" target="_blank"><img src="assets/footer/facebook.svg" alt="Facebook"></a>
+                    <a href="" target="_blank"><img src="assets/footer/instagram.svg" alt="Instagram"></a>
+                    <a href="" target="_blank"><img src="assets/footer/youtube.svg" alt="Youtube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     </footer>
 
